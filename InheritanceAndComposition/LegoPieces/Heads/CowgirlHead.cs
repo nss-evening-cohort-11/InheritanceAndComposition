@@ -6,7 +6,7 @@ namespace InheritanceAndComposition.LegoPieces.Heads
     {
         public bool HasHat { get; set; }
         public LipstickColor LipstickColor { get; set; }
-
+        
         public void HairFlip()
         {
             Console.WriteLine($"The cowgirl flips her {HairColor} hair.  She doesn't even care.");

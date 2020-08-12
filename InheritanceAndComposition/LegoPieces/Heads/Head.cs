@@ -4,10 +4,10 @@ using System.Text;
 
 namespace InheritanceAndComposition.LegoPieces.Heads
 {
-    class Head
+    abstract class Head
     {
         public EyeColor EyeColor { get; set; }
-        public virtual HairColor HairColor {  get; set; }
+        public HairColor HairColor {  get; set; }
 
         public virtual void Greet()
         {
